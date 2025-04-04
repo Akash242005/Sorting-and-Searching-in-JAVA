@@ -11,7 +11,7 @@ public class chatGpt{
         System.out.print("Insertion Sort : ");
         insertion_sort(ans);
         System.out.print(Arrays.toString(ans));
-    }
+    } 
     static void insertion_sort(int[] arr){
         int n = arr.length;
         for(int i=1;i<n;i++){
